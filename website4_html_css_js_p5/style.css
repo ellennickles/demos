@@ -13,13 +13,13 @@ h1 {
 }
 
 button {
-    background-color:khaki;
+    background-color: khaki;
     border-radius: 10px;
     border: 4px double yellow;
     margin: 1rem;
     padding: 0.5rem;
     width: 200px;
-    color:blue;
+    color: blue;
     font-size: 1.2rem;
 }
 
@@ -29,10 +29,10 @@ canvas {
 
 button:hover {
     border: 4px double blue;
-    color:blue;
+    color: blue;
 }
 
 button:active {
     background-color: blue;
-    color:yellow
+    color: yellow
 }

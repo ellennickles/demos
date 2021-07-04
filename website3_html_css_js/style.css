@@ -13,10 +13,10 @@ h1 {
 }
 
 button {
-    background-color:khaki;
+    background-color: khaki;
     border-radius: 10px;
     border: 4px double yellow;
-    color:blue;
+    color: blue;
     text-align: center;
     font-size: 1.2rem;
     margin: 1rem;
@@ -26,10 +26,10 @@ button {
 
 button:hover {
     border: 4px double blue;
-    color:blue;
+    color: blue;
 }
 
 button:active {
     background-color: blue;
-    color:yellow
+    color: yellow
 }

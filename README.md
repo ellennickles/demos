@@ -1,4 +1,5 @@
 # Website Demos
+- [Homepage](https://ellennickles.github.io/demos/)
 - [Website 1: HTML](https://ellennickles.github.io/demos/website1_html/index.html)
 - [Website 2: HTML, CSS](https://ellennickles.github.io/demos/website2_html_css/index.html)
 - [Website 3: HTML, CSS, JavaScript](https://ellennickles.github.io/demos/website3_html_css_js/index.html)

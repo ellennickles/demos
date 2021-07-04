@@ -1,0 +1,35 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color:#ffcff9;
+  font-family: Verdana, sans-serif; 
+}
+
+h1 {
+    margin: 10px 0 0 30px;
+    color: fuchsia;
+}
+
+button {
+    background-color:khaki;
+    border-radius: 10px;
+    border: 4px double yellow;
+    color:blue;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 200px;
+}
+
+button:hover {
+    border: 4px double blue;
+    color:blue;
+}
+
+button:active {
+    background-color: blue;
+    color:yellow
+}

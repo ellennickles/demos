@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <title>Demo 4 - HTML, CSS, JS / p5.js</title>
+</head>
+
+<body>
+    <body>
+        <header>
+            <h1>Best Website Ever</h1>
+        </header>
+
+        <main>
+            <button id="button">Click me!</button>
+        </main>
+</body>
+
+<script>
+    const btn = document.querySelector("#button")
+    btn.addEventListener("click", function() { alert('Hello class!') })
+
+    function setup() {
+        const cnv = createCanvas(640, 480);
+        cnv.position(0, 150)
+        background(50, 200, 240);  
+        const capture = createCapture(VIDEO)
+        capture.position(640, 150)
+    }
+
+    function draw() {
+        fill(250, 250, 0, 50)
+        noStroke();
+        ellipse(mouseX, mouseY, 50);
+    }
+</script>
+
+</html>

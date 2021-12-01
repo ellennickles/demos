@@ -1,0 +1,38 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#ffcff9;
+  font-family: Verdana, sans-serif; 
+  text-align: center;
+}
+
+h1 {
+    margin: 10px 0 0 30px;
+    color: fuchsia;
+}
+
+button {
+    background-color: khaki;
+    border-radius: 10px;
+    border: 4px double yellow;
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 200px;
+    color: blue;
+    font-size: 1.2rem;
+}
+
+canvas {
+    display: block;
+}
+
+button:hover {
+    border: 4px double blue;
+    color: blue;
+}
+
+button:active {
+    background-color: blue;
+    color: yellow
+}

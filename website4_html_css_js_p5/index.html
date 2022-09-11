@@ -11,7 +11,6 @@
 </head>
 
 <body>
-    <body>
         <header>
             <h1>Best Website Ever</h1>
         </header>
@@ -27,7 +26,7 @@
 
 
     function setup() {
-        createCanvas(windowWidth, windowHeight);
+        createCanvas(640, 480);
         background(50, 200, 240);
     }
 
@@ -38,7 +37,7 @@
     }
 
     function windowResized() {
-        createCanvas(windowWidth, windowHeight);
+        resizeCanvas(windowWidth, windowHeight);
         background(50, 200, 240);
     }
 </script>

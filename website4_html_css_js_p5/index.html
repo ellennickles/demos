@@ -26,7 +26,7 @@
 
 
     function setup() {
-        createCanvas(640, 480);
+        createCanvas(windowWidth, windowHeight);
         background(50, 200, 240);
     }
 
@@ -38,7 +38,7 @@
 
     function windowResized() {
         resizeCanvas(windowWidth, windowHeight);
-        background(50, 200, 240);
+        clear();
     }
 </script>
 

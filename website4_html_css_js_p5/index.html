@@ -24,21 +24,15 @@
     const btn = document.querySelector("#button")
     btn.addEventListener("click", function() { alert('Hello class!') })
 
-
     function setup() {
-        createCanvas(windowWidth, windowHeight);
-        background(50, 200, 240);
+        createCanvas(400, 400);
+        background(220);
     }
 
     function draw() {
-        fill(250, 250, 0, 50)
+        fill(250, 50)
         noStroke();
         ellipse(mouseX, mouseY, 50);
-    }
-
-    function windowResized() {
-        resizeCanvas(windowWidth, windowHeight);
-        clear();
     }
 </script>
 

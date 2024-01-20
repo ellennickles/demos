@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <title>Face</title>
+</head>
+
+<body>
+</body>
+
+<script>
+    function setup() {
+        createCanvas(400, 400);
+    }
+
+    function draw() {
+        background(220);
+
+        circle(width / 2, height / 2, (width / 4) * 3);
+
+        circle(width / 3, height / 2, width / 8);
+        circle((width / 3) * 2, height / 2, width / 8);
+
+        if (mouseX < width / 2) {
+            ellipse(width / 2, (height / 4) * 3, width / 4, width / 16);
+        } else {
+            ellipse(width / 2, (height / 4) * 3, width / 4, width / 6);
+        }
+    }
+</script>
+
+</html>

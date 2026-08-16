@@ -15,3 +15,4 @@
   Example](https://ellennickles.github.io/demos/input_video_device/index.html)
 - [Face](https://ellennickles.github.io/demos/face/index.html)
 - [Moving circle](https://ellennickles.github.io/demos/movingcircle/index.html)
+- [Paintbrush](https://ellennickles.github.io/demos/paintbrush/index.html)

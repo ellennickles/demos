@@ -16,3 +16,4 @@
 - [Face](https://ellennickles.github.io/demos/face/index.html)
 - [Moving circle](https://ellennickles.github.io/demos/movingcircle/index.html)
 - [Paintbrush](https://ellennickles.github.io/demos/paintbrush/index.html)
+- [Bounce](https://ellennickles.github.io/demos/bounce/index.html)
